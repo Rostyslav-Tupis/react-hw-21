@@ -34,6 +34,7 @@ function SignUp(){
 
     function emailHandler(e){ 
         setEmail(e.target.value)
+        // eslint-disable-next-line
         const re =/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 
         if(re.test(String(e.target.value).toLowerCase())){
@@ -44,6 +45,7 @@ function SignUp(){
     }
 
     function validatePassword(password) {
+        // eslint-disable-next-line
         const regex = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
         return regex.test(password);
     }
@@ -78,7 +80,7 @@ function SignUp(){
 
                 <div className={styles["icon_field"]}>
                 <div className={styles["bgc_icon"]}>
-                    <img src={Icon} className={styles["lock-icon"]}/>
+                    <img src={Icon}  alt="lock" className={styles["lock-icon"]}/>
                 </div>
                 <h4 className={styles["main_title"]}>Sign Up</h4>
             </div>

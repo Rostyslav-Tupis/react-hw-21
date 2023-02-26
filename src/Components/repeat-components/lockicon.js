@@ -6,7 +6,7 @@ function LockIcon(){
     return(
         <div className={styles["icon_field"]}>
             <div className={styles["bgc_icon"]}>
-                <img src={icon} className={styles["lock-icon"]}/>
+                <img src={icon} alt="lock" className={styles["lock-icon"]}/>
             </div>
             <h4 className={styles["main_title"]}>Sign in</h4>
         </div>

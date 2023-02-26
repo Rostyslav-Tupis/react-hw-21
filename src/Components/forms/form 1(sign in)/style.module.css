@@ -1,0 +1,148 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(35, 35, 35);
+    color: #fff;
+}
+*{
+    box-sizing:border-box
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_container{
+    padding: 50px;
+    border-radius: 10px;
+    max-width: 450px;
+}
+/* ================================= ICON-FIELD ================================= */
+.icon_field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+}
+.lock-icon{
+    width: 20px;
+    height: 20px;
+}
+.bgc_icon{
+    width: 40px;
+    height: 40px;
+    background-color:rgb(240 142 176);
+    border-radius: 50%;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_title{
+    font-size: 18px;
+}
+/* ================================= FORM ================================= */
+.form{
+    margin-top: 25px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 340px;
+}
+.input{
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    background: none;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 3px;
+    padding: 13px 15px;
+}
+.wrong{
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    background: none;
+    border: 1px solid red;
+    border-radius: 3px;
+    padding: 13px 15px;
+    
+}
+.input::placeholder{
+    font-size: 14px;
+}
+/* --------------------------- checkbox-filed --------------------------- */
+.checkbox-filed{
+    margin-top: 13px;
+    display: flex;
+}
+.input_checkbox{
+    margin: 0 10px 0 0 ;
+}
+
+/* --------------------------- SUBMIT BTN & LINKS --------------------------- */
+.btn_field{
+    margin-top: 28px;
+}
+.submit-btn{
+    padding: 7px;
+    background-color: rgb(144 202 249);
+    border: none;
+    border-radius: 3px;
+    transition: all 0.3s;
+    display: inherit;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.submit-btn:hover{
+    background-color: rgb(93, 180, 251);
+}
+
+.links{
+    margin-top: 15px;
+}
+.link{
+    font-size: 14px;
+    color: rgb(107 148 183);
+}
+
+.rights{
+    margin-top: 50px;
+}
+.copyrights{
+    font-size: 12px;
+    text-align: center;
+}
+.disabled-link{
+    pointer-events: none;
+}
+
+
+
+/* ================================= FORM 2 SIGN UP  ================================= */
+
+.registr_field{
+    display: flex;
+    width: 340px;
+    column-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.errormes{
+    font-size: 14px;
+    color: rgb(172, 172, 172);
+    font-style: italic; 
+    margin-top: -12px;
+}
+
+.signUpLinks{
+    text-align: end;
+    margin-top: 15px;
+}
+.signUpLink{
+    font-size: 14px;
+    color: rgb(107 148 183);
+}
